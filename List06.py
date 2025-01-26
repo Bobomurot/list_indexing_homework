@@ -6,4 +6,4 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    return [True if x == 1 else x for x in list1]

@@ -6,4 +6,4 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    return [False if x == 0 else x for x in list1]
